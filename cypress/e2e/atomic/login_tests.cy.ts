@@ -3,7 +3,7 @@ import { LoginPage } from "../../page-objects/login-page";
 describe("Login atomic Tests", () => {
   let loginPage = new LoginPage();
 
-  beforeEach(() => {
+  before(() => {
     loginPage.openPmtool();
   });
 
@@ -18,6 +18,7 @@ describe("Login atomic Tests", () => {
 
     it("Username has value after typing", () => {
       let username = "username";
+      loginPage.openPmtool();
       loginPage.typeUsername(username).usernameHasValue(username);
     });
   });
@@ -42,6 +43,7 @@ describe("Login atomic Tests", () => {
     });
 
     it("Remember me is unchechked as default", () => {
+      loginPage.openPmtool();
       loginPage.rememberMeIsNotChecked();
     });
 
@@ -51,9 +53,43 @@ describe("Login atomic Tests", () => {
     });
 
     it("Remember me is not checked after 2 clicks", () => {
+      loginPage.openPmtool();
       loginPage.clickRememberMe();
       loginPage.clickRememberMe();
       loginPage.rememberMeIsNotChecked();
+    });
+  });
+  context("Headers and texts tests", () => {
+    it("Logo is visible", () => {
+      loginPage.logoIsVisible();
+    });
+
+    it("Username has Username as placeholder", () => {
+      loginPage.usernameHasPlaceholder("Username");
+    });
+
+    it("Password has Password as placeholder", () => {
+      loginPage.passwordHasPlaceholder("Password");
+    });
+
+    it("Title is visible", () => {
+      loginPage.titleIsVisible();
+    });
+
+    it("Title has Login as text", () => {
+      loginPage.titleHasText("Login");
+    });
+
+    it("Remember me checkbox has text Remember Me", () => {
+      loginPage.rememberMeCheckboxHasText("Remember Me");
+    });
+
+    it("Login button has Login as text", () => {
+      loginPage.loginButtonHasText("Login");
+    });
+
+    it("Lost password anchor has Password forgotten? as text", () => {
+      loginPage.lostPasswordAnchorHasText("Password forgotten?");
     });
   });
 });
