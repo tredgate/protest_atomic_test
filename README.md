@@ -1,5 +1,10 @@
 # protest_atomic_test
 Toto repo vylo vytvořeno pro přednášku Atomické testy pro komunitní skupinu [\[pro\:\]TEST\!](https://www.pro-test.info/).
+V testech využíváme aplikaci [Tredgate Pmtool](http://tredgate.com/pmtool/)
+
+Uživatel na testování:
+**username**: protest_user
+**password**: Protest23#
 
 ## Preconditions
 Nainstalované nástroje
