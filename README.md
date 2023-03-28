@@ -3,8 +3,8 @@ Toto repo vylo vytvořeno pro přednášku Atomické testy pro komunitní skupin
 V testech využíváme aplikaci [Tredgate Pmtool](http://tredgate.com/pmtool/)
 
 Uživatel na testování:
-**- username**: protest_user
-**- password**: Protest23#
+- **username**: protest_user
+- **password**: Protest23#
 
 ## Preconditions
 Nainstalované nástroje
