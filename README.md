@@ -5,7 +5,6 @@ V testech využíváme aplikaci [Tredgate Pmtool](http://tredgate.com/pmtool/)
 Uživatel na testování:
 
 **username**: protest_user
-
 **password**: Protest23#
 
 ## Preconditions
