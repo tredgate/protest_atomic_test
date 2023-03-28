@@ -15,9 +15,9 @@ Nainstalované nástroje
 
 ## Postup na zprovoznění
 1. Naclonuj si repository k sobě do počítače
-2. V naclonované složce nainstaluj Cypress přes terminál/přikazový řádek
+2. V naclonované složce nainstaluj Cypress, Typescript přes terminál/přikazový řádek
 ```
-npm install cypress --save-dev
+npm install --save-dev
 ```
 3. Spusť Cypress pomocí terminálu, příkazového řádku
 ```
