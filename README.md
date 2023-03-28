@@ -1,14 +1,14 @@
 # protest_atomic_test
 Toto repo vylo vytvořeno pro přednášku Atomické testy pro komunitní skupinu [\[pro\:\]TEST\!](https://www.pro-test.info/).
 
-##Preconditions
+## Preconditions
 Nainstalované nástroje
 - [node.js LTS](https://nodejs.org/en)
 - [Git Windows](https://git-scm.com/download/win)
 - [Git Mac](https://git-scm.com/download/mac)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
-##Postup na zprovoznění
+## Postup na zprovoznění
 1. Naclonuj si repository k sobě do počítače
 2. V naclonované složce nainstaluj Cypress přes terminál/přikazový řádek
 ```
